@@ -1,3 +1,4 @@
+import { useRouter } from "next/router"
 import Image from "next/image"
 import Link from "next/link"
 import Hero from "@/components/hero"
@@ -8,6 +9,8 @@ export const metadata = {
 }
 
 export default function About() {
+  const { basePath } = useRouter()
+
   return (
     <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pt-12 md:pt-16 pb-16 md:pb-20">
       {/* Middle area */}
@@ -56,7 +59,7 @@ export default function About() {
         <br />
 
         {/* About Image */}
-        <Image className="w-full" src="/images/me_tongariro_02.jpg" width={692} height={390} alt="About" />
+        <Image className="w-full" src={`${basePath}/images/me_tongariro_02.jpg`} width={692} height={390} alt="About" />
       </div>
 
       {/* Right sidebar */}
