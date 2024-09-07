@@ -3,6 +3,11 @@ import Link from "next/link"
 import Hero from "@/components/hero"
 import AboutImage from "@/public/images/me_tongariro_02.jpg"
 
+export const metadata = {
+  title: "About",
+  description: "About Me",
+}
+
 export default function About() {
   return (
     <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pt-12 md:pt-16 pb-16 md:pb-20">

@@ -2,6 +2,11 @@ import ProjectCard from "../../components/project-card"
 import { MdToday } from "react-icons/md"
 import { GrGallery } from "react-icons/gr"
 
+export const metadata = {
+  title: "Project",
+  description: "My Projects",
+}
+
 export default function Projects() {
   const items01 = [
     {

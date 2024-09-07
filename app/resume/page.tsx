@@ -6,8 +6,8 @@ import Skills from "@/components/resume/skills"
 import Languages from "@/components/resume/languages"
 
 export const metadata = {
-  title: "Resume - DevSpace",
-  description: "Page description",
+  title: "Resume",
+  description: "My Resume",
 }
 
 export default function Resume() {

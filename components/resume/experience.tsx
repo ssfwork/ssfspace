@@ -56,7 +56,7 @@ export default function Experience() {
             </div>
             <div className="pl-20 space-y-1">
               <div className="text-xs text-slate-500 uppercase">
-                Jan 2017 <span className="text-slate-400 dark:text-slate-600">·</span> Apr 2017
+                Jun 2021 <span className="text-slate-400 dark:text-slate-600">·</span> Feb 2022
               </div>
               <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">C# Developer</div>
               <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Uxtrata</div>
