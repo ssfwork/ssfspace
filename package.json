@@ -7,9 +7,8 @@
     "dev": "nodemon --config nodemon.json",
     "build": "next build",
     "start": "next start",
-    "export": "NEXT_EXPORT=true next export",
     "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
