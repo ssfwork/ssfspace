@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isExport = false
+const isExport = true
 
 const nextConfig = {
   output: isExport ? "export" : undefined,
-  trailingSlash: true,
-  basePath: isExport ? "/ssfspace" : undefined,
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
