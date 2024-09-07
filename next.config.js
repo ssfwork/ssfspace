@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
+const isExport = process.env.NEXT_EXPORT === "true"
+
 const nextConfig = {
-  output: "export",
+  output: isExport ? "export" : undefined,
   trailingSlash: true,
-  basePath: "/ssfspace",
+  basePath: isExport ? "/ssfspace" : undefined,
+  experimental: {
+    esmExternals: true,
+  },
 }
 
 module.exports = nextConfig
