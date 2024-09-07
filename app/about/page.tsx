@@ -1,12 +1,9 @@
+"use client"
 import { useRouter } from "next/router"
 import Image from "next/image"
 import Link from "next/link"
 import Hero from "@/components/hero"
-
-export const metadata = {
-  title: "About - DevSpace",
-  description: "Page description",
-}
+import AboutImage from "@/public/images/me_tongariro_02.jpg"
 
 export default function About() {
   const { basePath } = useRouter()
@@ -59,7 +56,7 @@ export default function About() {
         <br />
 
         {/* About Image */}
-        <Image className="w-full" src={`${basePath}/images/me_tongariro_02.jpg`} width={692} height={390} alt="About" />
+        <Image className="w-full" src={AboutImage} width={692} height={390} alt="About" />
       </div>
 
       {/* Right sidebar */}

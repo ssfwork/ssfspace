@@ -1,4 +1,5 @@
 import Image from "next/image"
+import UniLogo from "@/public/images/the_university_of_auckland_logo.jpg"
 
 export default function Education() {
   return (
@@ -9,7 +10,7 @@ export default function Education() {
         <li className="relative group">
           <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 before:dark:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 before:group-last-of-type:hidden">
             <div className="absolute left-0 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
-              <Image src="/images/the_university_of_auckland_logo.jpg" width={55} height={55} alt="Auckland University" className="object-cover rounded-full" />
+              <Image src={UniLogo} width={55} height={55} alt="Auckland University" className="object-cover rounded-full" />
             </div>
             <div className="pl-20 space-y-1">
               <div className="text-xs text-slate-500 uppercase">
@@ -25,7 +26,7 @@ export default function Education() {
         <li className="relative group">
           <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 before:dark:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 before:group-last-of-type:hidden">
             <div className="absolute left-0 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
-              <Image src="/images/the_university_of_auckland_logo.jpg" width={55} height={55} alt="Auckland University" className="object-cover rounded-full" />
+              <Image src={UniLogo} width={55} height={55} alt="Auckland University" className="object-cover rounded-full" />
             </div>
             <div className="pl-20 space-y-1">
               <div className="text-xs text-slate-500 uppercase">
